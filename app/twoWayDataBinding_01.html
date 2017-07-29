@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" ng-app><!--  cause no module  -->
+<head>
+    <meta charset="UTF-8">
+    <title>Two way data binding</title>
+</head>
+<body ng-init="name='AngularJS'"><!--creates a model called 'name' with value'AngularJS' and saves it in root scope-->
+   
+   <input type="text" ng-model="name">
+   
+   <div><h2>Hello, {{name}}</h2></div>
+   
+    
+    <script src="lib/angular/angular.js"></script>
+   
+</body>
+</html>
